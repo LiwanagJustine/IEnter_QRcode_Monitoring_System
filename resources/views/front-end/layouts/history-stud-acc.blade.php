@@ -22,7 +22,7 @@
 </head>
 <body>
     <div class="main-container" style="width: 100%;">
-        @include('front-end.layouts.side-bar')
+        @include('front-end.layouts.sections.side-bar')
         <section class="home-section">
             <main>
                 @yield('content')

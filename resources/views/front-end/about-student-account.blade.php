@@ -1,6 +1,6 @@
 @extends('front-end.layouts.about-stud-acc')
 
 @section('content')
-    @include("front-end.layouts.about-us")
+    @include("front-end.layouts.content.about-us")
 @endsection
 

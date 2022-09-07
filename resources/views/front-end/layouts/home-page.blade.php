@@ -18,7 +18,7 @@
 </head>
 <body>
     <div class="container">
-        @include('front-end.layouts.header')
+        @include('front-end.layouts.sections.header')
 
         <main>
             @yield('content')

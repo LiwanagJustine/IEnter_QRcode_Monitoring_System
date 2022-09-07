@@ -1,0 +1,148 @@
+
+/* form-cont */
+
+body{
+    background: #E0EFFF;
+}
+.mainContainer{
+    width: 100%;
+    margin: auto;
+    /* border: black solid 1px; */
+}
+.container{
+    width: 87%;
+    height: 600px;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: solid black 1px; */
+    display: flex;
+}
+.cont1{
+    flex: 1.1;
+    /* border: solid black 1px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(110, 99, 99, 0.174) 5px 0px 10px 0px;
+}
+.welcomeTxt h2{
+    font-size: 34px;
+    color: #323746;
+    word-spacing: 10px;
+    font-weight: bold;
+}
+.welcomeTxt{
+    padding: 20px;
+    margin-top: 40px;
+}
+.cont1 img{
+    display: block;
+    width: 80%;
+    height: 70%;
+    float:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont2{
+    flex: 1;
+    /* border: solid black 1px; */
+    background: #E0EFFF;
+    box-shadow: rgba(110, 99, 99, 0.174) 5px 0px 10px 0px;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    margin: auto;
+}
+.contTxt h3{
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #323746;
+    word-spacing: 5px;
+    font-weight: 600;
+}
+.form input{
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    outline-color: #1686FB;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #323746;
+    margin-bottom: 6px;
+}
+.checkBox{
+    width: 100%;
+    /* border: black solid 1px; */
+}
+.checkBox input{
+   padding: 10px;
+}
+.checkBox span{
+    font-size: 12.5px;
+    position: absolute;
+    margin-left: 5px;
+    color: #464d62c0;
+}
+.checkBox a{
+    font-size: 12.5px;
+    float: right;
+    color: #1686FB;
+}
+.signinBtn{
+    width: 40%;
+    padding: 5px;
+    border-radius: 15px;
+    border: #1686FB solid 2px;
+    background: #1686FB;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.signinBtn:hover{
+    color: #1686FB;
+    background-color: white;
+    border: #1686FB solid 2px;
+    transition: 0.6s;
+}
+.visit{
+    text-align: center;
+    margin-top: 30px;
+    word-spacing: 3px;
+}
+.visit a{
+    font-size: 18px;
+    color: #1686FB;
+    text-decoration: underline;
+}
+.visit a:hover{
+    color: #1685fbcd;
+}
+.signUp{
+    text-align: center;
+    margin-top: 50px;
+    word-spacing: 3px;
+}
+h4{
+    font-size: 18px;
+    color: #323746;
+    font-weight: bold;
+}
+.signUp a{
+    font-size: 18px;
+    color: #1686FB;
+}

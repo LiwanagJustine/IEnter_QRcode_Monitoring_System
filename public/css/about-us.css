@@ -1,0 +1,49 @@
+.row1{
+    width: 100%;
+    height: 53px;
+    padding: 5px;
+    margin-left: 10px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.row1 h2{
+    padding: 6px 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #323746;
+}
+.row2{
+    width: 100%;
+    height: 150vh;
+    margin-left: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+/* overflow-y:scroll; */
+::-webkit-scrollbar {
+    width: 0;
+  }
+.row2 .box1, .box2{
+    width: 95%;
+    height: 55vh;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    position: relative;
+    background: white;
+}
+.row2 .box1 img{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+}
+.row2 .box2 img{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: auto;
+    /* border: black solid 1px; */
+}
+/* showCase */
+
+.line{
+    width: 60px;
+    height: 2.5px;
+    margin: 7px 25px 0px 0px;
+    background-color: #1686FB;
+    border-radius: 10px;
+}
+h5{
+    color: #1686FB;
+    font-weight: bold;
+    font-size: 13px;
+}
+.container{
+    padding-left: 30px;
+}
+.welcome{
+    display: flex;
+    margin: 40px 0px 10px 0px;
+
+}
+.content1{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+h2{
+    font-size: 46px;
+    font-weight: bold;
+    color: #323746;
+    word-spacing: 10px;
+    line-height: 55px;
+}
+.intro p{
+    margin-top: 5px;
+    color: #b8bfc9d4;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: lighter;
+    word-spacing: 5px;
+}
+.intro{
+    flex: 1;
+    /* border: black solid 1px; */
+}
+.bgImage{
+    flex: 1;
+    /* border: black solid 1px; */
+    padding: 0px 50px;
+}
+.intro button{
+    width: 150px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 50px;
+    border: #1686FB solid 2px;
+    background: #1686FB;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bgImage img{
+    width: 100%;
+    height: 560px;
+}
+button:hover{
+    color: #1686FB;
+    background-color: white;
+    border: #1686FB solid 2px;
+    transition: 0.6s;
+}
+

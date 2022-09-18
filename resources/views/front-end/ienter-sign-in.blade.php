@@ -34,7 +34,7 @@
                     <button type=""  class="signinBtn" >Sign in</button>
                 </a>
                 <div class="visit">
-                    <a href="">Visitor</a>
+                    <a href="{{ route('visitor.declaration-form')}}">Visitor</a>
                 </div>
             </div>
             <div class="signUp">

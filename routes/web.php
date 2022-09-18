@@ -13,6 +13,8 @@ use App\Http\Controllers\MapStudentController;
 use App\Http\Controllers\CalendarStudentController;
 use App\Http\Controllers\HistoryStudentController;
 use App\Http\Controllers\AboutStudentController;
+use App\Http\Controllers\StudentProfileController;
+use App\Http\Controllers\DeclarationFormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,5 +39,7 @@ Route::get('/map', [MapStudentController::class, 'index'])->name('map.index');
 Route::get('/calendar', [CalendarStudentController::class, 'index'])->name('calendar.index');
 Route::get('/history', [HistoryStudentController::class, 'index'])->name('history.index');
 Route::get('/about-us', [AboutStudentController::class, 'index'])->name('about-us.index');
+Route::get('/profile', [StudentProfileController::class, 'index'])->name('profile.index');
+Route::get('/declaration-form', [DeclarationFormController::class, 'index'])->name('visitor.declaration-form');
 
 Auth::routes();

@@ -42,4 +42,4 @@ Route::get('/about-us', [AboutStudentController::class, 'index'])->name('about-u
 Route::get('/profile', [StudentProfileController::class, 'index'])->name('profile.index');
 Route::get('/declaration-form', [DeclarationFormController::class, 'index'])->name('visitor.declaration-form');
 
-Auth::routes();
+// Auth::routes();
